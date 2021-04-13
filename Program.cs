@@ -8,11 +8,8 @@ namespace c_sharp_basics
         {
             int numeroDeVezes = 5;
             
-            for (int i = 0; i < numeroDeVezes; i++)
-            {
-                
-                Console.WriteLine($"Bem-vindo ao curso de .NET: {i}");
-            }
+            for (int i = 0; i < numeroDeVezes; i++) Console.WriteLine($"Bem-vindo ao curso de .NET: {i}");
+            
         }
     }
 }
