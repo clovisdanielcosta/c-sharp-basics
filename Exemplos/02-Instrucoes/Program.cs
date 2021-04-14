@@ -56,7 +56,7 @@ namespace Instrucoes
             }
         }
 
-        static void InstrucaoDo(string[] args)
+        static void InstrucaoDo(string[] args)  /* Contains ReadLine */
         {
             string texto;
             do
@@ -82,7 +82,7 @@ namespace Instrucoes
             }
         }
 
-        static void InstrucaoBreak(string[] args)
+        static void InstrucaoBreak(string[] args) /* Contains 'IsNullOrEmpty' */
         {
             while (true)
             {
@@ -110,7 +110,7 @@ namespace Instrucoes
             }
         }
 
-        static void InstrucaoReturn(string[] args)
+        static void InstrucaoReturn()
         {
             int Somar(int a, int b)
             {
