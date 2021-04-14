@@ -4,16 +4,11 @@ namespace c_sharp_basics.Exemplos
 {
         class ForExample
     {
-            int numeroDeVezes = 5;
-            
             public void contaVezes()
             {
-                for (int i = 0; i < numeroDeVezes; i++) Console.WriteLine($"Bem-vindo ao curso de .NET: {i}");
+                int [] numeroDeVezes = {1, 2, 4, 5};
+                for (int i = 0; i < numeroDeVezes.Length; i++) Console.WriteLine($"Bem-vindo ao curso de .NET: {i}");
             }
-            
-
-
     }
-
 }
 
