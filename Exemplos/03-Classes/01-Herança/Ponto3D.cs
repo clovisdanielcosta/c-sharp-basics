@@ -17,6 +17,7 @@ namespace Classes.Herança
         {
             //Faz outra coisa ...
             base.CalcularDistancia3();
+            
         }
     }
 }

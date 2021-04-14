@@ -123,7 +123,7 @@ namespace Instrucoes
             return;
         }
 
-        static void InstrucoesTryCatchFinallyThrow(string[] args)
+        static void InstrucoesTryCatchFinallyThrow(string[] args) /* Parse */
         {
             double Dividir(double x, double y)
             {
@@ -158,7 +158,7 @@ namespace Instrucoes
             }
         }
 
-        static void InstrucaoUsing(string[] args)
+        static void InstrucaoUsing(string[] args) /* Create and Write in a file and clean 'w" from memory */
         {
             using (System.IO.TextWriter w = System.IO.File.CreateText("teste.txt"))
             {
