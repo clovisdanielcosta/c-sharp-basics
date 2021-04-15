@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Revisao
+namespace c_sharp_basics.Exemplos.Revisao
 {
     class Program
     {
